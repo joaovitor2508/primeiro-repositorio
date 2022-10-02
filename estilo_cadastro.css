@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 80%;
+    display: flex;
+    margin: 0  auto;
+    flex-direction: row; 
+    justify-content: space-between;
+    color: #32b9cd;
+    align-items: center;
+    
+}
+i{
+    font-size:30px ;
+}
+
+header{
+    background-color: black;
+    border-bottom: #32b9cd solid;
+    padding: 10px;
+    
+}
+
+
+.navegacao {
+    width: 350px;
+    color: #efb661;
+  }
+  
+  .navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navegacao ul li {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+.banner{
+    background-image: url("img/bg-jelly-fish-para_outras_pags.png");
+    padding: 120px 0; 
+    background-size: cover;
+    height: 83vh;
+
+}
+.banner .container{
+    
+    justify-content: center;
+    height: 100%;
+    
+    align-items: center;
+  }
+  .caixa_formulario{
+    background-color: #e5e5e5;
+    padding: 20px 100px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+  }
+  .caixa_formulario h2{
+    color:palevioletred;
+    margin-bottom: 10px;
+  }
+  .campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .campo label{
+    color: palevioletred;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  .campo input{
+    padding: 10px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+ 
+  }
+
+ 
+  .caixa_formulario button{
+    padding: 10px 20px;
+    font-weight:bold ;
+    border-radius: 2px;
+    margin-top: 20px;
+    width: 120px;
+    color: white;
+    background-color: #e6005a;
+    border: none;
+    cursor: pointer;
+  
+      }
+  .caixa_formulario button:hover{
+    opacity: 1;
+  }
+  
+  
+ 
+footer{
+    background-color: #32b9cd;
+    
+    padding: 40px;
+}
+footer .container{
+    justify-content: center;
+    color: white
+}
+.navegacao a{
+    color:#efb661;
+    text-decoration: none;
+}

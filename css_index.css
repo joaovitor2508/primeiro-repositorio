@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 80%;
+    display: flex;
+    margin: 0  auto;
+    flex-direction: row; 
+    justify-content: space-between;
+    color: #32b9cd;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    border-bottom: #32b9cd solid;
+    padding: 10px;
+    
+}
+
+.navegacao {
+    width: 350px;
+    color: #efb661;
+  }
+  
+  .navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navegacao ul li {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+.banner{
+    background-image: url("img/bg-jelly-fish-para_outras_pags.png");
+    padding: 120px 0; 
+    background-size: cover;
+
+}
+.banner .container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 350px;
+    align-items: center;
+  }
+  .banner p{
+    color: #fff;
+    font-size: 36px;
+    width:300px;
+  }
+  .social .caixas{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .caixa img{
+    width: 170px;
+  }
+  .caixa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .caixa p{
+  text-align: center;
+  color: black;
+   }
+   .caixa h4{
+    margin: 15px 0;
+    color: #e6005a;
+   }
+  .social{
+  margin: 50px;
+}
+footer{
+    background-color: #32b9cd;
+    
+    padding: 40px;
+}
+footer .container{
+    justify-content: center;
+    color: white
+}
+.navegacao a{
+  color:#efb661;
+  text-decoration: none;
+}
